@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Selft-sooth</title>
+	<link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+	<!-- Login Form -->
+	<div class='login-container' id='login-container'>
+		<h2>Welcome to our Website</h2>
+		<form id="login-form" method="GET" name="myform" action='/'>
+			<h3>Login Form</h3><br>
+			<label for='name'> Enter your name :</label>
+			<input type="text" name="name" id="name" />
+			<br><br>
+			<label for='surname'> Enter your surname :</label>
+			<input type="text" name="surname" id="surname" />
+			<br><br>
+			<label for='password'>Enter your password:</label>
+			<br>
+			<input type="password" name="password" id="password" />
+			<br><br>
+			<input type="submit" value="Login" />
+			<br>
+		</form>
+		<!-- For Thabo: I have moved the button to render the form outside of the form so that it does no trigger a submit event when you click it -->
+		<p class='renderForm'>Dont have an account? <button  onclick='goToRegister()'>Register Now</button></p>
+	</div>
+	<!-- Registration Form -->
+	<div class="register-container" id='register-container'>
+		<h2>Welcome to our Website</h2>
+		<form id="reg-form" method="GET" name="myform">
+			<h3>Register Below</h3><br>
+			<label for='name'> Enter your name :</label>
+			<input type="text" name="name" id="name" required />
+			<br><br>
+			<label for='surname'> Enter your surname :</label>
+			<input type="text" name="surname" id="surname" required />
+			<br><br>
+			<label for='password'>Enter your password:</label>
+			<br>
+			<input type="password" name="password" id="password" required />
+			<br><br>
+			<input type='submit' value='Register'/>
+			<br>
+		</form>
+		<p class='renderForm'>Go back and <button onclick='goToLogin()' >Login Now</a></p>
+	</div>
+
+	<div class="ball1">
+	</div>
+	<span class="ball2">
+	</span>
+	<span class="ball3">
+	</span>
+	<span class="ball4">
+	</span>
+	<span class="ball5">
+	</span>
+	<span class="ball6">
+	</span>
+	<span class="ball7">
+	</span>
+	<span class="ball8">
+	</span>
+	<span class="ball9">
+	</span>
+	<span class="ball10">
+	</span>
+	<span class="ball11">
+	</span>
+	<span class="ball12">
+	</span>
+	<span class="ball13">
+	</span>
+	</form>
+	<script type='text/javascript' src="./js.js">
+	</script>
+</body>
+
+</html>
